@@ -18,7 +18,7 @@ pipeline {
         
         stage("Checkout from SCM") {
             steps {
-                git branch: 'main', credentialsId: 'github-cred', url: 'https://github.com/godwinekele/End_to-_End.git'
+                git branch: 'main', credentialsId: 'github-cred', url: 'https://github.com/godwinekele/End_to_End.git'
             }
         }
         
