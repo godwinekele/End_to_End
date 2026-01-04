@@ -13,7 +13,7 @@ def home():
             <h1>🤖 Trading Bot CI/CD Pipeline Demo</h1>
             <p><strong>Status:</strong> <span style="color: #00ff00;">Running ✓</span></p>
             <p><strong>Time:</strong> {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p>
-            <p><strong>Version:</strong> 1.0.0</p>
+            <p><strong>Version:</strong> 1.0.1</p>  # Change to 1.0.1
             <hr>
             <p>This is a demo app to test your Jenkins → Docker Hub → ArgoCD → K8s pipeline</p>
             <p>Once this works, you can run your actual trading bot directly on Windows!</p>
